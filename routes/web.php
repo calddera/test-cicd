@@ -22,5 +22,5 @@ Route::get('/hola', function () {
 });
 
 Route::get('/laravel', function () {
-    return "YA QUEDO EL DE LARAVEL";
+    return view('testmc');
 });
