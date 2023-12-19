@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/hola', function () {
     return "HOLA MUNDO";
 });
+
+Route::get('/laravel', function () {
+    return "YA QUEDO EL DE LARAVEL";
+});
